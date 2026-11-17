@@ -1,0 +1,6 @@
+
+-r requirements.txt
+
+# Model training utilities
+tqdm>=4.66
+PyYAML>=6.0

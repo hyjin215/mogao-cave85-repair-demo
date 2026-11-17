@@ -1,0 +1,40 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Dataset: do not upload
+muralseg/
+data/
+dataset/
+datasets/
+
+# Original input images
+inputs/*
+!inputs/.gitkeep
+
+# Generated restoration results
+outputs/*
+!outputs/.gitkeep
+
+# Model checkpoints and weights
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
